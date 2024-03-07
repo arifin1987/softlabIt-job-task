@@ -102,3 +102,17 @@
   background: #6bc67c;
   color: #ffff;
 }
+
+@media (max-width: 576px) {
+  .amount {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ingredients-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .preparation-items {
+    flex-direction: column;
+  }
+}

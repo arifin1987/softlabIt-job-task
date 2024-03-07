@@ -43,3 +43,9 @@
 .steps-para {
   color: #cdcdcd;
 }
+
+@media (max-width: 576px) {
+  .weight-height {
+    padding: 10px 30px;
+  }
+}
