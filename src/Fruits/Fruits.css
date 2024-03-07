@@ -1,0 +1,104 @@
+.header {
+  background: #f4f5fa;
+}
+.banner {
+  background-image: url("../../public/Assets/brooke-lark-nBtmglfY0HU-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 1000px;
+}
+.banner img {
+  width: 100%;
+  height: 25%;
+}
+
+.about {
+  text-align: center;
+}
+.about h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.nutrational-info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.nutrational-info h3 {
+  text-align: center;
+  font-weight: lighter;
+  color: #cdcdcd;
+  font-size: 20px;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #000;
+}
+.amount p {
+  margin-right: 80px;
+}
+.amount-red {
+  color: #f29fa1;
+}
+.amount-light {
+  font-weight: 100;
+  color: #cdcdcd;
+}
+
+.ingredients {
+  background: white;
+  padding: 20px;
+
+  border-radius: 10px;
+  margin: 30px;
+}
+.ingredients h1 {
+  text-align: center;
+}
+
+.ingredients-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.ingredients-info p {
+  font-weight: bold;
+  color: #cdcdcd;
+}
+
+.preparation {
+  background: white;
+  padding: 20px;
+
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.preparation h1 {
+  text-align: center;
+}
+
+.preparation-items {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.house {
+  display: flex;
+  gap: 8px;
+
+  padding: 0px 20px;
+  border-radius: 25px 25px;
+  background: #6bc67c;
+  color: #ffff;
+}
