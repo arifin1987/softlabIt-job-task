@@ -3,6 +3,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home-header">
+      {/* banner section added */}
       <section className="home-banner">
         <img src="../../public/Assets/Group 22.png" alt="" />
       </section>

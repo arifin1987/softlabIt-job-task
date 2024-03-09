@@ -103,7 +103,8 @@
   color: #ffff;
 }
 
-@media (max-width: 576px) {
+/* media query added */
+@media (max-width: 599px) {
   .amount {
     flex-direction: column;
     text-align: center;

@@ -2,6 +2,7 @@ import "./Fruits.css";
 const Fruits = () => {
   return (
     <div className="header">
+      {/* banner section added */}
       <section className="banner">
         <img src="../../public/Assets/Mask Group 4.png" alt="" />
       </section>
@@ -12,6 +13,7 @@ const Fruits = () => {
           assumenda tempore consequuntur repellat a in alias
         </p>
       </section>
+      {/* nutrational info added */}
       <section className="nutrational-info">
         <h3>Nutritional information</h3>
         <div className="amount">
@@ -31,6 +33,7 @@ const Fruits = () => {
           </p>
         </div>
       </section>
+      {/* ingredients items added */}
       <section className="ingredients">
         <h1>Ingredients</h1>
         <div className="ingredients-info">
@@ -64,6 +67,7 @@ const Fruits = () => {
           </div>
         </div>
       </section>
+      {/* preparation items added */}
       <section className="preparation">
         <h1>Preparation</h1>
         <div className="preparation-items">
